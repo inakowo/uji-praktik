@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    box-shadow: 0px 0px 10px rgb(206, 202, 172);
+    filter:drop-shadow(0px 0px 5px rgb(211, 183, 27));
+    border-style: outset;
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(238, 240, 223), rgb(240, 238, 222));
+}
+.logo{
+        padding: 3px 5px;
+        float: left;
+        color: goldenrod;
+        font-size: large;
+        font-family: 'Lucida Handwriting';
+        font-style: italic;
+        text-shadow: 0px 0px 5px rgb(116, 90, 24);;
+}
+nav a{
+    float: left;
+    text-align: center;
+    padding: 20px 10px;
+    color: rgb(168, 164, 127);
+    font-size: large;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(238, 225, 225);
+    transition:0.5s;
+    scale:110%;
+}
+div{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/038/025/278/small/ai-generated-flowers-near-a-flower-shop-flowers-in-flowerpots-on-the-street-of-the-city-photo.jpg") ;   
+    height: 1000px;
+    width: 100%;
+}
